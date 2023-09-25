@@ -14,7 +14,7 @@ const Form = () => {
 
     const handleClick = e => {
         if(Object.keys(todo).length === 0 || todo.todo.trim() === '') {
-            alert('el campo no puede estar vacio')
+            alert('el campo caja de texto no puede estar vacio')
             return
         }
         setTodos([...todos, todo])
