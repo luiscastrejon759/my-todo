@@ -8,7 +8,7 @@ const  App = () => {
     <div className="App">
       <div className="App-content">
         <p>
-          Aquí haremos nuestro TO-DO list
+          ADMINISTRADOR DE TAREAS
         </p>
         <Form />
       </div>
